@@ -1,0 +1,84 @@
+.h11{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+#container{
+    display:grid;
+    grid-template-columns: 3fr 8fr;
+}
+.content p{
+    text-align: justify;
+    font-size: 20px;
+
+}
+h2{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+
+}
+#rightRack{
+    height: 740px;;
+    overflow: scroll;
+}
+ul{
+   list-style: none;
+   margin-top: 50px;
+}
+#leftRack{
+    background-color: gray;
+    width: 90%;
+}
+#leftRack li{
+    border: 2px solid black;
+    width:80%;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#card{
+    width: 300px;
+    height:420px;
+    background-color: white;
+    box-shadow: 3px 3px 4px black;
+    margin-left: 20px;
+}
+#cardBody{
+    margin-left: 40px;
+}
+#cardfooter{
+    display: flex;  
+    flex-wrap: wrap;
+}
+#cardfooter div{
+  margin-left: 80px;
+  border: 1px solid black;
+  padding: 8px;
+  background-color:lightgreen;
+}
+#cardContainer{
+    display: flex;
+}
+#contact{
+    background-color: lightgray;
+    height:200px;
+}
+#contact div,p{
+    text-align: center;
+}
+#contact #detail p{
+    font-size: 20px;
+}
